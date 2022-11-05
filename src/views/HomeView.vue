@@ -4,6 +4,8 @@ import StationInfo from "../components/StationInfo.vue";
 
 <template>
   <main>
-    <StationInfo />
+    <Suspense>
+      <StationInfo />
+    </Suspense>
   </main>
 </template>

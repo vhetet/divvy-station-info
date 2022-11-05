@@ -39,3 +39,8 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+
+## Personal notes
+
+* when I have a top level await in the `script setup` I need to wrap the entire component in <Suspense>, meaning in the parent component the async component needs to be in Suspense
